@@ -7,8 +7,8 @@ from random import choice, randint
 
 
 def tweep():
-    auth = tweepy.OAuthHandler(consumer_key='CF2OBPRrbL9jlYT29krjC9k6d', consumer_secret='xKd4Ap9hEhbPAPAHQEj3hONvEbjmJXhKAWjBAbeNF90uI9eunQ')
-    auth.set_access_token(key='2975429935-SEy1iJGy0alMnWlUqGLPQ8shVUh2zWbGNr0sauT', secret='lsWAr7Ugq2KgpnzBhC4zPvA4Ui9wPr8MmzQRdfnXeH2k8')
+    auth = tweepy.OAuthHandler(consumer_key=XXXXX, consumer_secret=XXXXX)
+    auth.set_access_token(key=XXXXX, secret=XXXXX)
     api = tweepy.API(auth)
     c = randint(1, 5)
 
